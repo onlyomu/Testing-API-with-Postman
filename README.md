@@ -14,10 +14,10 @@
 * возможность удалять корзину. Ручка ```DELETE /api/v1/orders/:id```.
 
 ### Решение:
-[API check-list](https://drive.google.com/file/d/1NoAnmTxQNccwdqd8SyUMFj6b056HZe9l/view?usp=share_link)
+**[API check-list](https://drive.google.com/file/d/1NoAnmTxQNccwdqd8SyUMFj6b056HZe9l/view?usp=share_link)**
 
 ### Задание 2:
 Проверить [XML-файл](https://code.s3.yandex.net/qa/schemes/diploma-29.png) на ошибки
 
 ### Решение:
-[Updated XML](https://drive.google.com/file/d/1gzYwiMGIoOqbIZMLRGY27luCKiM_9WQC/view?usp=share_link)
+**[Updated XML](https://drive.google.com/file/d/1gzYwiMGIoOqbIZMLRGY27luCKiM_9WQC/view?usp=share_link)**
