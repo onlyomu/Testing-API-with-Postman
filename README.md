@@ -1,6 +1,20 @@
 # Testing-API-with-Postman
 
 ### Задание 1:
+Тестовое задание выполняется на площадке open api NASA - https://api.nasa.gov/
+
+Необходимо найти запросы Mars Rover Photos
+Выполнить запрос по Querying by Earth date на дату 21.01.2022
+Передать в переменную окружения id второй фотографии, распарсив json
+Ответ на задание прислать в следующем виде:
+
+1. URL получившегося запроса
+2. Код js для передачи переменной
+
+### Решение:
+**[NASA](https://github.com/onlyomu/Testing-API-with-Postman/blob/main/nasa)**
+
+### Задание 2:
 1. Проанализируй требования к новой функциональности бэкенда Яндекс.Прилавка. Изучи документацию к API в Apidoc. [Требования к бэкенду](https://code.s3.yandex.net/qa/files/backend_requirements.pdf).
 2. Спроектируй тесты в виде чек-листа, чтобы покрыть функциональность, которую тебе передали на тестирование. Авторизацию проверять не нужно.
 
@@ -16,7 +30,7 @@
 ### Решение:
 **[API check-list](https://drive.google.com/file/d/1NoAnmTxQNccwdqd8SyUMFj6b056HZe9l/view?usp=share_link)**
 
-### Задание 2:
+### Задание 3:
 Проверить [XML-файл](https://code.s3.yandex.net/qa/schemes/diploma-29.png) на ошибки
 
 ### Решение:
