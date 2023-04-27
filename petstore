@@ -1,0 +1,31 @@
+1. // Получение ответа от сервера
+var jsonData = pm.response.json();
+
+// Получение id созданного питомца
+var petId = jsonData.id;
+
+// Запись id питомца в переменную окружения
+pm.environment.set("petId", petId);
+
+
+2. // Получение ответа от сервера
+var jsonData = pm.response.json();
+
+// Изменение статуса на "sold"
+jsonData.status = "sold";
+
+// Обновление тела запроса для изменения питомца
+pm.environment.set("updatedBody", JSON.stringify(jsonData));
+
+// Создание нового запроса с измененным телом
+pm.sendRequest({
+    url: 'https://petstore.swagger.io/v2/pet/',
+    method: 'PUT',
+     header: {
+        'Content-Type': 'application/json'
+    },
+    body: {
+        mode: 'raw',
+        raw: pm.environment.get("updatedBody")
+    }
+});
