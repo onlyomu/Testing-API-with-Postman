@@ -1,7 +1,16 @@
 # Testing-API-with-Postman
 
 ### Задание 1:
-Тестовое задание выполняется на площадке open api NASA - https://api.nasa.gov/
+Задание выполняется на площадке Swagger Petstore https://petstore.swagger.io/
+
+1. Прописать скрипт, который берет из тела ответа id созданного питомца и записывает в  окружение
+2. Прописать скрипт, который будет брать тело ответа, менять параметр «status» на  «sold» (продан) и перенаправлять его в запрос на изменение питомца
+
+### Решение:
+**[Задание 1](https://github.com/onlyomu/Testing-API-with-Postman/blob/main/petstore)**
+
+### Задание 2:
+Задание выполняется на площадке open api NASA - https://api.nasa.gov/
 
 Необходимо найти запросы Mars Rover Photos
 Выполнить запрос по Querying by Earth date на дату 21.01.2022
@@ -14,7 +23,7 @@
 ### Решение:
 **[NASA](https://github.com/onlyomu/Testing-API-with-Postman/blob/main/nasa)**
 
-### Задание 2:
+### Задание 3:
 1. Проанализируй требования к новой функциональности бэкенда Яндекс.Прилавка. Изучи документацию к API в Apidoc. [Требования к бэкенду](https://code.s3.yandex.net/qa/files/backend_requirements.pdf).
 2. Спроектируй тесты в виде чек-листа, чтобы покрыть функциональность, которую тебе передали на тестирование. Авторизацию проверять не нужно.
 
@@ -30,7 +39,7 @@
 ### Решение:
 **[API check-list](https://drive.google.com/file/d/1NoAnmTxQNccwdqd8SyUMFj6b056HZe9l/view?usp=share_link)**
 
-### Задание 3:
+### Задание 4:
 Проверить [XML-файл](https://code.s3.yandex.net/qa/schemes/diploma-29.png) на ошибки
 
 ### Решение:
